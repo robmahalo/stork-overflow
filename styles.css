@@ -166,7 +166,7 @@ p {
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 25vw);
+    grid-template-rows: repeat(5, 25vw);
     grid-gap: 50px;
 }
 
