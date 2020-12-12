@@ -137,12 +137,24 @@ p {
     height: 400px;
 }
 
+#banner {
+  margin-bottom: 200px;
+}
+
 
 /* Projects */
 
 .project-img {
     border-radius: 20px;
-    width: 100%;
+    width: 400px;
+    height: 200px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 20vw);
+    grid-gap: 50px;
 }
 
 
@@ -166,7 +178,7 @@ p {
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 25vw);
+    grid-template-rows: repeat(5, 25vw);
     grid-gap: 50px;
 }
 
